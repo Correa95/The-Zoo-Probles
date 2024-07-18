@@ -4,13 +4,43 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #333;
+  color: #fff;
+}
+
 header {
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .animalcontainer {
   display: grid;
-  /* grid-template-columns: ; */
+  grid-template-columns: repeat(5, 350px);
+  gap: 20px;
+}
+
+.card {
+  height: 400px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  border: 2px solid #fff;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ol li {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
